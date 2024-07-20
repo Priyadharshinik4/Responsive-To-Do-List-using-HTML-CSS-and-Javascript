@@ -1,10 +1,7 @@
-body{
+ body{
     margin: 0;
     padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 60vh;
+    text-align: center;
 }
 input{
     width: 20rem;
@@ -20,4 +17,16 @@ button{
 }
 button:hover{
     transform: scale(1.1);
+}
+
+.task {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.remove-btn {
+    cursor: pointer;
+    color: red;
 }
