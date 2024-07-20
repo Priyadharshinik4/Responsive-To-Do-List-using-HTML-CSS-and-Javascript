@@ -1,3 +1,4 @@
+// Function to add a task
 function add() {
     const input = document.getElementById('input');
     const result = document.getElementById('result');
@@ -26,27 +27,3 @@ function add() {
         input.value = '';
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
